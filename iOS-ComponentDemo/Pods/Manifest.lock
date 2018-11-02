@@ -1,0 +1,16 @@
+PODS:
+  - LocalPrivateLibrary (0.1.0)
+
+DEPENDENCIES:
+  - LocalPrivateLibrary
+
+SPEC REPOS:
+  https://github.com/seabrea/SEASpec.git:
+    - LocalPrivateLibrary
+
+SPEC CHECKSUMS:
+  LocalPrivateLibrary: f36770b32d97250212489cc790189adc36961fd3
+
+PODFILE CHECKSUM: 6e0bc1cb121394082c02038356b3a4dc53260a40
+
+COCOAPODS: 1.5.0
