@@ -8,6 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		8A17A750AF43BD8FDFCF067A /* libPods-iOS-ComponentDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D673F38DF77C7E8533817F82 /* libPods-iOS-ComponentDemo.a */; };
+		943BAA542191BEF8007AFB61 /* ShopViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 943BAA532191BEF8007AFB61 /* ShopViewController.m */; };
+		943BAA572191BF33007AFB61 /* NewsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 943BAA562191BF33007AFB61 /* NewsViewController.m */; };
+		943BAA5B21928899007AFB61 /* CTMediator+ShopViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 943BAA5A21928899007AFB61 /* CTMediator+ShopViewController.m */; };
+		943BAA5E21928A2C007AFB61 /* Target_Shop.m in Sources */ = {isa = PBXBuildFile; fileRef = 943BAA5D21928A2C007AFB61 /* Target_Shop.m */; };
+		943BAA6121928DB1007AFB61 /* CTMediator.m in Sources */ = {isa = PBXBuildFile; fileRef = 943BAA6021928DB1007AFB61 /* CTMediator.m */; };
 		94CCD509218C357C006BE04E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 94CCD508218C357C006BE04E /* AppDelegate.m */; };
 		94CCD50C218C357C006BE04E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 94CCD50B218C357C006BE04E /* ViewController.m */; };
 		94CCD50F218C357C006BE04E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94CCD50D218C357C006BE04E /* Main.storyboard */; };
@@ -17,6 +22,16 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		943BAA522191BEF8007AFB61 /* ShopViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ShopViewController.h; sourceTree = "<group>"; };
+		943BAA532191BEF8007AFB61 /* ShopViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShopViewController.m; sourceTree = "<group>"; };
+		943BAA552191BF33007AFB61 /* NewsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NewsViewController.h; sourceTree = "<group>"; };
+		943BAA562191BF33007AFB61 /* NewsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NewsViewController.m; sourceTree = "<group>"; };
+		943BAA5921928899007AFB61 /* CTMediator+ShopViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CTMediator+ShopViewController.h"; sourceTree = "<group>"; };
+		943BAA5A21928899007AFB61 /* CTMediator+ShopViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "CTMediator+ShopViewController.m"; sourceTree = "<group>"; };
+		943BAA5C21928A2C007AFB61 /* Target_Shop.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Target_Shop.h; sourceTree = "<group>"; };
+		943BAA5D21928A2C007AFB61 /* Target_Shop.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Target_Shop.m; sourceTree = "<group>"; };
+		943BAA5F21928DB1007AFB61 /* CTMediator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CTMediator.h; sourceTree = "<group>"; };
+		943BAA6021928DB1007AFB61 /* CTMediator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CTMediator.m; sourceTree = "<group>"; };
 		94CCD504218C357C006BE04E /* iOS-ComponentDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS-ComponentDemo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		94CCD507218C357C006BE04E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		94CCD508218C357C006BE04E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -52,6 +67,37 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		943BAA502191BEA7007AFB61 /* NewsViewController */ = {
+			isa = PBXGroup;
+			children = (
+				943BAA552191BF33007AFB61 /* NewsViewController.h */,
+				943BAA562191BF33007AFB61 /* NewsViewController.m */,
+			);
+			path = NewsViewController;
+			sourceTree = "<group>";
+		};
+		943BAA512191BEC7007AFB61 /* ShopViewController */ = {
+			isa = PBXGroup;
+			children = (
+				943BAA522191BEF8007AFB61 /* ShopViewController.h */,
+				943BAA532191BEF8007AFB61 /* ShopViewController.m */,
+				943BAA5C21928A2C007AFB61 /* Target_Shop.h */,
+				943BAA5D21928A2C007AFB61 /* Target_Shop.m */,
+			);
+			path = ShopViewController;
+			sourceTree = "<group>";
+		};
+		943BAA5821928858007AFB61 /* Mediator */ = {
+			isa = PBXGroup;
+			children = (
+				943BAA5F21928DB1007AFB61 /* CTMediator.h */,
+				943BAA6021928DB1007AFB61 /* CTMediator.m */,
+				943BAA5921928899007AFB61 /* CTMediator+ShopViewController.h */,
+				943BAA5A21928899007AFB61 /* CTMediator+ShopViewController.m */,
+			);
+			path = Mediator;
+			sourceTree = "<group>";
+		};
 		94CCD4FB218C357C006BE04E = {
 			isa = PBXGroup;
 			children = (
@@ -73,6 +119,9 @@
 		94CCD506218C357C006BE04E /* iOS-ComponentDemo */ = {
 			isa = PBXGroup;
 			children = (
+				943BAA5821928858007AFB61 /* Mediator */,
+				943BAA512191BEC7007AFB61 /* ShopViewController */,
+				943BAA502191BEA7007AFB61 /* NewsViewController */,
 				94CCD507218C357C006BE04E /* AppDelegate.h */,
 				94CCD508218C357C006BE04E /* AppDelegate.m */,
 				94CCD50A218C357C006BE04E /* ViewController.h */,
@@ -187,8 +236,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				943BAA542191BEF8007AFB61 /* ShopViewController.m in Sources */,
 				94CCD50C218C357C006BE04E /* ViewController.m in Sources */,
+				943BAA572191BF33007AFB61 /* NewsViewController.m in Sources */,
+				943BAA6121928DB1007AFB61 /* CTMediator.m in Sources */,
+				943BAA5E21928A2C007AFB61 /* Target_Shop.m in Sources */,
 				94CCD517218C357F006BE04E /* main.m in Sources */,
+				943BAA5B21928899007AFB61 /* CTMediator+ShopViewController.m in Sources */,
 				94CCD509218C357C006BE04E /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
